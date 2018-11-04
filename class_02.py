@@ -59,3 +59,9 @@ batch_10_dict = {
 
 batch_10_dict['name'] = 'test'
 print(batch_10_dict)
+
+from class_03 import blank_dict
+
+def add_city():
+    blank_dict['city'] = 'Pune'
+    print('In Class 2 module:', blank_dict)
